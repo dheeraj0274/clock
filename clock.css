@@ -8,7 +8,7 @@ body{
 
 }
 .container{
-    position: relative;
+    position: relative
 }
 .clock{
    
@@ -20,7 +20,7 @@ body{
     border-radius: 50%;
     margin: 0 auto;
     position: relative;
-    box-shadow: 0px 0px 0px 3px rgba(228, 14, 146, 0.9);
+    box-shadow: 0px 0px 0px 9px rgba(228, 14, 146, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ body{
 .clock span b {
     transform: rotate(calc(-30deg * var(--i)));
     display: inline-block;
-    font-size: 20px;
+    font-size: 25px;
 }
 .clock::before{
     content: '';
